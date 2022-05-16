@@ -4,7 +4,49 @@ body {
     margin: 0 auto;
 }
 
+/* INTESTAZIONE */
+
 header{
-    min-height: 500px;
-    background-color: lightblue;
+    background-color: #404eed;
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1400px;
+}
+
+.row {  
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.logo {
+    height: 50px;
+    width: 100px;
+    background-color: lightcoral;
+}
+
+.menu {
+    background-color: beige;
+    
+}
+
+.button {
+    background-color: rgb(214, 159, 88);
+    height: 50px;
+    width: 100px;
+}
+
+.testo {
+    margin-top: 150px;
+    text-align: center;
 }
