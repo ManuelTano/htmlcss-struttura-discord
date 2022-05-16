@@ -1,0 +1,10 @@
+/* Generics */
+
+body {
+    margin: 0 auto;
+}
+
+header{
+    min-height: 500px;
+    background-color: lightblue;
+}
