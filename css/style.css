@@ -2,6 +2,7 @@
 
 body {
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 /* INTESTAZIONE */
@@ -51,9 +52,9 @@ nav {
 .text {
     margin-top: 100px;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 30%;
+    background-color: lightgreen;
 }
 
 section {
@@ -97,3 +98,39 @@ section {
 .grey{
     background-color: #F6F6F6;
 }
+
+.black{
+    background-color: #23272A;
+}
+
+.last-container{
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.description{
+    text-align: center;
+
+}
+
+.col60{
+    width: 40%;
+    background-color: #7289DA;
+    height: 100px;
+    
+}
+
+.col{
+    width: 15%;
+    background-color: #7289DA;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.footer-container {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+}
+    
