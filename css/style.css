@@ -111,7 +111,7 @@ section {
 
 }
 
-.last-description{
+.first-description{
     background-color: coral;
     margin-left: 25px;
     padding: 10px 10px;
@@ -122,6 +122,15 @@ section {
     background-color: #292841;
     height: 600px;
     margin-left: 25px;
+    margin-top: 50px;
+}
+
+.last-description{
+    background-color: coral;
+    margin-left: 325px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    width: 50%;
 }
 
 .col60{
