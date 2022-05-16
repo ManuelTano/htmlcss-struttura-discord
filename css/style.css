@@ -114,7 +114,8 @@ section {
 .last-description{
     background-color: coral;
     margin-left: 25px;
-
+    padding: 10px 10px;
+    margin-bottom: 25px;
 }
 
 .last-image{
