@@ -18,13 +18,14 @@ nav {
 
 .container {
     width: 1400px;
-    
+    margin-bottom: 100px;
 }
 
 .row {  
     display: flex;
     margin-top: 20px;
-    justify-content: space-around;
+    margin-bottom: 100px;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -48,18 +49,21 @@ nav {
 }
 
 .text {
-    margin-top: 150px;
-    text-align: center;
+    margin-top: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 
 section {
-    
-    padding: 60px 60px;
+     padding: 60px 60px;
 }
 
 .row-container {
     width: 1400px;
     display: flex;
+    margin: 0 auto;
 
 }
 .column{
@@ -67,17 +71,24 @@ section {
     justify-content: center;
     align-items: center;
 }
-.image{
-    width: 600px;
-    height: 400px;
+
+
+.column-image, .image{
+    width: 60%;
     background-color: #292841;
+    height: 600px;
+    margin-left: 25px;
+
+    
 }
 
-.description {
-    width: 400px;
-    height: 600px;
+.column-description, .description{
+    width: 40%;
     background-color: coral;
+    margin-left: 25px;
+
 }
+
 
 .white{
     background-color: white;
