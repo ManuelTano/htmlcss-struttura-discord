@@ -54,6 +54,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     width: 30%;
+    padding: 10px 10px;
     background-color: lightgreen;
 }
 
@@ -106,16 +107,24 @@ section {
 .last-container{
     width: 1400px;
     margin: 0 auto;
-
-}
-
-.description{
     text-align: center;
 
 }
 
+.last-description{
+    background-color: coral;
+    margin-left: 25px;
+
+}
+
+.last-image{
+    background-color: #292841;
+    height: 600px;
+    margin-left: 25px;
+}
+
 .col60{
-    width: 40%;
+    width: 34%;
     background-color: #7289DA;
     height: 100px;
     
@@ -132,5 +141,12 @@ section {
     width: 1400px;
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
-    
+
+.last-row{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
