@@ -1,17 +1,17 @@
-/* Generics */
+/* GENERICS */
 
 body {
     margin: 0 auto;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 /* INTESTAZIONE */
 
 header{
-    background-color: #404eed;
-    
-    
+    background-color: #404eed;   
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -28,35 +28,38 @@ nav {
     margin-bottom: 100px;
     justify-content: space-between;
     width: 100%;
+    text-align: center;  
 }
 
 .logo {
-    height: 50px;
-    width: 100px;
+    width: 25%;
     background-color: lightcoral;
+    padding: 10px;
 }
 
 .menu {
     background-color: beige;
-    height: 50px;
-    width: 500px;
+    padding: 10px;
+    width: 50%
     
 }
 
 .button {
     background-color: rgb(214, 159, 88);
-    height: 50px;
-    width: 100px;
+    padding: 10px;
+    width: 25%;
 }
 
 .text {
     margin-top: 100px;
     margin: 0 auto;
     text-align: center;
-    width: 30%;
+    width: 50%;
     padding: 10px 10px;
     background-color: lightgreen;
 }
+
+/* SEZIONI PRINCIPALI */
 
 section {
      padding: 60px 60px;
@@ -66,7 +69,6 @@ section {
     width: 1400px;
     display: flex;
     margin: 0 auto;
-
 }
 .column{
     flex-direction: row;
@@ -79,18 +81,14 @@ section {
     width: 60%;
     background-color: #292841;
     height: 600px;
-    margin-left: 25px;
-
-    
+    margin-left: 25px;   
 }
 
 .column-description, .description{
     width: 40%;
     background-color: coral;
     margin-left: 25px;
-
 }
-
 
 .white{
     background-color: white;
@@ -100,15 +98,11 @@ section {
     background-color: #F6F6F6;
 }
 
-.black{
-    background-color: #23272A;
-}
 
 .last-container{
     width: 1400px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 .first-description{
@@ -133,11 +127,16 @@ section {
     width: 50%;
 }
 
+/* FOOTER */
+
+.black{
+    background-color: #23272A;
+}
+
 .col60{
     width: 34%;
     background-color: #7289DA;
-    height: 100px;
-    
+    height: 100px;   
 }
 
 .col{
@@ -159,4 +158,5 @@ section {
     margin-top: 100px;
     justify-content: space-between;
     width: 100%;
+    text-align: center;
 }
